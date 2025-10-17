@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Glow Bouncing Ball</title>
+
+  <!-- CSS file -->
+  <link rel="stylesheet" href="ball.css">
+</head>
+<body>
+
+  <!-- Main Box -->
+  <div class="box">
+    <div class="loader"></div>
+  </div>
+
+  <script>
+    // Ball click karne par animation start/stop
+    const ball = document.querySelector('.loader');
+    ball.addEventListener('click', () => {
+      ball.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
+
